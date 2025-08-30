@@ -19,7 +19,6 @@ hr {
 
 button {
     background: #3ac478;
-    margin-top: 25px;
     padding: 0 10px;
     height: 35px;
 
@@ -31,6 +30,11 @@ button {
     color: #3ac478;
 }
 
+.inline-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
 #container {
     width: 300px;
     margin: 20px;
@@ -40,12 +44,11 @@ button {
     justify-self: center;
 }
 
-#result-container {
-    display: flex;
-    justify-content: space-between;
+#options {
+    margin: 25px 0;
 }
 
-#result-container > p {
+#results > p {
     background: #263548;
     text-align: center;
     padding: 5px 0;

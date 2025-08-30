@@ -7,9 +7,15 @@
             <h1>Generate a<br><span class="highlight">random password</span></h1>
             <p>Never use an insecure password again.</p>
 
-            <button id="generate-btn">Generate passwords</button>
+            <div class="inline-flex" id="options">
+                <div>
+                    <p class="inline-flex">Include numbers: <input id="include-numbers" type="checkbox"></p>
+                    <p class="inline-flex">Include symbols: <input id="include-symbols" type="checkbox"></p>
+                </div>
+                <button id="generate-btn">Generate passwords</button>
+            </div>
             <hr>
-            <div id="result-container">
+            <div class="inline-flex" id="results">
                 <p class="highlight"></p>
                 <p class="highlight"></p>
             </div>
