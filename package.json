@@ -1,0 +1,22 @@
+{
+  "name": "scrimba-password-generator",
+  "description": "https://scrimba.com/learn-javascript-c0v/~03f",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^7.1.3"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [
+    "random",
+    "password",
+    "generator"
+  ],
+  "author": "Damjan Sudarević",
+  "license": "ISC"
+}
